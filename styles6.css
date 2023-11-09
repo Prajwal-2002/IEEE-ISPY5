@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(4, 54, 74);
+  color: rgb(218, 255, 251);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+.round-input {
+  padding: 8px;
+  border-radius: 15px;
+  border: 1px solid rgb(218, 255, 251);
+  margin-right: 10px;
+}
+
+.btn {
+  padding: 8px 15px;
+  border: 1px solid rgb(218, 255, 251);
+  border-radius: 15px;
+  background-color: transparent;
+  color: rgb(218, 255, 251);
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+  background-color: rgb(218, 255, 251);
+  color: rgb(4, 54, 74);
+}
